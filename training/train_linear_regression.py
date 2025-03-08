@@ -6,7 +6,6 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 
-# Load the cleaned dataset
 data = pd.read_csv("data/cleaned_data.csv")
 
 X = data.drop(columns=["median_house_value"]) 
