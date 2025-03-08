@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 # House-Price-Prediction
-=======
 
 
 **Overview:**
@@ -60,4 +58,4 @@ I used Root Mean Squared Error (RMSE) and R² Score for evaluating the models.
  
 
 
->>>>>>> c1339db (Initial commit)
+
