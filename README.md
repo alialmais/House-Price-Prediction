@@ -12,31 +12,32 @@ I used Root Mean Squared Error (RMSE) and R² Score for evaluating the models.
 
 ## **Project Structure**
 
-📂 house_price_prediction/
-│── README.md → Documentation
-├── 📄 dataCleaning.py
-├── 📂 training/                              → Trains machine learning models
-    ├── 📄 train_linear_regression.py 
-    ├── 📄 train_random_forest.py 
-    ├── 📄 train_xgboost.py 
-    │── 📄 train_xgboost_tuned.py
-    ├── 📄 train_decision_tree.py  
-├── 📂 data/ 
-    ├── california_housing.csv
-    ├── cleaned_data.csv 
-├── 📂 models/                                 → Stores trained models
-    ├── linear_regression.pkl
-    ├── random_forest.pkl
-    ├── xgboost_best.pkl
-    ├── decision_tree.pkl
-    ├── scaler.pkl
-    ├── model_evaluation_results.csv
-    ├── model_comparison_chart.png
-├── 📄 evaluate_models.py                      → Compares model performance
-├── 📄 test.py                                 → Loads & tests the best model
-├── 📄 main.py                                 → User inputs house details and gets a price prediction
-│
+## Project Structure
 
+- **house_price_prediction/**
+  - `README.md` → Documentation
+  - `dataCleaning.py`
+  - **training/** → Trains machine learning models
+    - `train_linear_regression.py`
+    - `train_random_forest.py`
+    - `train_xgboost.py`
+    - `train_xgboost_tuned.py`
+    - `train_decision_tree.py`
+  - **data/**
+    - `california_housing.csv`
+    - `cleaned_data.csv`
+  - **models/** → Stores trained models
+    - `linear_regression.pkl`
+    - `random_forest.pkl`
+    - `xgboost_best.pkl`
+    - `decision_tree.pkl`
+    - `scaler.pkl`
+  - `model_evaluation_results.csv`
+  - `model_comparison_chart.png`
+  - `evaluate_models.py` → Compares model performance
+  - `test.py` → Loads & tests the best model
+  - `main.py` → User inputs house details and gets a price prediction
+  
 ##  **Dataset**
 - **Source:** California Housing dataset.
 - **Features Used:**
