@@ -1,5 +1,6 @@
 # House-Price-Prediction
 
+![image](https://github.com/user-attachments/assets/c6fdf1aa-8f38-4d67-9e9d-304359f1d174)
 
 ---
 
