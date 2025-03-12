@@ -1,16 +1,10 @@
 # House-Price-Prediction
 
 
-**Overview:**
-This project explores four machine learning models to determine the optimal method for predicting house prices in California. Linear regression was chosen first and considered as a baseline model due to it’s simplicity, decision tree was adopted to identify non-linear relationships in housing data, Random Forest was used to improve generalization, and XGBoost was selected due to it’s performance on structured data.
-I used Root Mean Squared Error (RMSE) and R² Score for evaluating the models.
-  RMSE helps in indicating   how much error the model makes. R² Score helps us know how well the model understands house prices. The model with the best performance was XGBoost(Tuned) achieving R² = 0.73.As future work I should focus on improving feature engineering to achieve higher accuracy.
-
 ---
 
 ## **Project Structure**
 
-## Project Structure
 
 - **house_price_prediction/**
   - `README.md` → Documentation
