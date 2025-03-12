@@ -7,7 +7,7 @@
 
 
 - **house_price_prediction/**
-  - `README.md` → Documentation
+  - `README.md` 
   - `dataCleaning.py`
   - **training/** → Trains machine learning models
     - `train_linear_regression.py`
