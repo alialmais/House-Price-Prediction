@@ -43,14 +43,6 @@
 
 
 
-  ##  **Model Performance**
-| Model                 | Training R² | Testing R² | Training RMSE | Testing RMSE |
-|---------------------  |------------ |------------|---------------|--------------|
-| **Linear Regression** | 0.62        | 0.60       |                              |
-| **Random Forest**     | 0.79        | 0.69       |
-| **XGBoost (Tuned)**   | 0.80        | 0.73       | 50572.77      | 58138.12     |
-| **Decision Tree**     | 0.76        | 0.61       |                              |
- 
 
 
 
